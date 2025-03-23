@@ -1,0 +1,53 @@
+textarea {
+    width: 500px;
+    height: 200px;
+    resize: vertical;
+     
+}
+
+body {
+    background: linear-gradient(135deg, rgba(20, 20, 30, 0.8), rgba(30, 30, 40, 0.6));
+    backdrop-filter: blur(12px);
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.note-card {
+    /* background: rgba(255, 255, 255, 0.07); */
+    background-color: #3498db;
+    backdrop-filter: blur(12px);
+    border: 1px solid #2c3e50;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    color: #f0f0f0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.note-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 28px rgba(0, 0, 0, 0.3);
+}
+
+.note-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.note-body {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #2c3e50; 
+
+}
+
+.more-description {
+    background-color: #c9ada7;
+    text-align: center;
+} 
